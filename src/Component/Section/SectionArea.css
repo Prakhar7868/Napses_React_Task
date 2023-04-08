@@ -1,0 +1,442 @@
+    *{
+    margin: 0px;
+    padding: 0px;
+    }
+    .Section-Area-1{
+    background-color: #EC663D;
+    display: flex;
+    padding-left: 135px;
+    padding-top: 100px;
+    }
+
+    .De-tu{
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 63px;
+    color: #000000;
+    }
+    .La-comida{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+    color: #FFFFFF;
+    }
+
+    .Input-button{
+    margin-top: 50px;
+    width: 350px;
+    position: relative;
+    }
+    .Input-button input {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-bottom: 50px;
+    }
+    .Input-button button {
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    right: 0px;
+    z-index: 2;
+    border: none;
+    top: 0px;
+    height: 32px;
+    cursor: pointer;
+    color: white;
+    background-color: #EB8E78;
+    transform: translateX(2px);
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+    .social-icons{
+    display: flex;
+    gap: 20px;
+    margin-top: 100px;
+    }
+
+    .facebook, .twitter, .instagram{
+    width:50px;
+    height:50px;
+    background-color:#EB8E78;
+    border-radius: 50%;
+    }
+
+    .fa-icon, .twit-icon, .insta-icon{
+    color: #FFFFFF;
+    font-size: 30px;
+    margin: 10px;
+    }
+    .Image-section{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    }
+
+    .Section-image1{
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    height:200px;
+    top: 0px;
+    right: 80px;
+    border-radius: 12px;
+    }
+    .Section-image2{
+    position: absolute;
+    z-index: 1;    
+    width: 300px;
+    height:300px;
+    top: 150px;
+    right: 200px;
+    border-radius: 12px;
+    }
+    .Section-image3{
+    position: absolute;
+    z-index: 0;   
+    width: 200px;
+    height:200px;
+    top: 400px;
+    left: 80px;
+    border-radius: 12px;
+    }
+    .Section-Area-2{
+    text-align: center;
+    padding: 40px;
+    padding-left: 135px;
+    }
+    .Categorías, .Fonditas, .Mapa{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #5EAE53;
+    border-radius: 12px;
+    display: inline-block;
+    padding: 5px 10px 5px 11px;
+    }
+
+    .Mapa-input{
+    margin-top: 20px;
+    width: 285px;
+    position: relative;
+    display: inline-block;
+    }
+    .Mapa-input input {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    outline: none;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #DADADA;
+    padding-left: 10px;
+    }
+    .Mapa-input button {
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    right: 0px;
+    z-index: 2;
+    border: none;
+    top: 0px;
+    height: 30px;
+    width:40px;
+    cursor: pointer;
+    color: white;
+    transform: translateX(2px);
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    margin-right: 5px;
+    }
+
+    .Map-icon{
+    font-size: 20px;
+    color: black;
+    }
+
+    .Map-button{
+    display: inline-block;
+    background: #EB8E78;
+    border-radius: 12px;
+    padding: 12px;
+    margin-left: 50px;
+    border: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .Subir-mi{
+    background: #EB8E78;
+    border-radius: 12px;
+    padding: 12px;
+    margin-left: 10px;
+    border: none;
+    margin-top: 20px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+
+    .Las-favoritas, .Fondas-cercanas, .Encuentra, .Los-mejores{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    margin-top: 20px;
+    }
+    .food-box, .Fondas-contanier{
+    display: flex;
+    gap:50px;
+    padding-top: 50px;
+    }
+    .categries-box{
+    height: 240px;
+    width:  170px;
+    border-radius: 12%;
+    background-color: #F7F7F7;;
+    }
+
+    .food-icon{
+    width: 110px;
+    height: 110px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin: 20px auto;
+    text-align: center;
+    }
+
+    .foodicon{
+    font-size: 80px;
+    margin-top: 10px;
+    }
+
+    .food-name h6{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #333333;
+    }
+
+    .food-name p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(51, 51, 51, 0.50133);
+    }
+
+    .Section-Area-3{
+    text-align: center;
+    padding: 40px;
+    padding-left: 135px;
+    }
+
+    .Estás-son, .Encuentralas, .Aquí-están{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(51, 51, 51, 0.501557);
+    }
+
+    .Fondas-box{
+    width: 270px;
+    height: 320px;
+    background: #F7F7F7;
+    border-radius: 12px;
+    }
+    .Fondas-image{
+    width: 257px;
+    height:208px;
+    background-color: aqua;
+    }
+
+    .Fondasfood-details {
+    text-align: start;
+    margin: 20px;
+    }
+    .Fondasfood-details h4{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;    
+    color: #333333;
+    margin-top: 20px;
+    }
+
+    .Fondasfood-details h6, .Reciepe-details h5{
+    display: inline-block;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333333;
+    }
+    .Fondasfood-details span, .Reciepe-details span{
+    margin-left: 90px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: right;
+    color: rgba(51, 51, 51, 0.501557);
+    }
+
+    .Section-Area-4{
+    padding-top: 50px;
+    padding-left: 135px;
+    display: flex;
+    }
+
+    .Map-image{
+    width: 540px;
+    height: 450px;
+    background: silver;
+    }
+
+    .Mapa-Section{
+    margin-top: 80px;
+    margin-left: 80px;
+    }
+
+    .Section-Area-5{
+    padding-top: 80px;
+    padding-left: 135px;
+    }
+
+    .section5-container {
+    display: flex;
+    padding-top: 30px;
+    gap: 20px;
+    flex-wrap: wrap;
+    }
+    .section5-box{
+    display: flex;
+    border: 2px dotted black;
+    width: 570px;
+    height: 208px;
+    background-color: #F7F7F7;;
+    }
+    .Reciepe-image{
+    width: 270px;
+    height: 208px;
+    background-color: aqua;
+    }
+    .hotcake, .pizza, .continental, .sushi, 
+    .dona, .rosa, .pasta, .orange, .profimage, .chef, .foodimage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+
+    .Reciepe-details{
+    padding: 30px;
+    }
+
+    .Reciepe-details h6{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+    }
+
+    .Reciepe-details h4{
+    margin-top: 30px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    }
+
+    .Reciepe-details p{
+    margin-top: 10px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(51, 51, 51, 0.501557);
+    }
+
+    .Section-Area-6{
+    padding-top: 80px;
+    padding-left: 135px;
+    display: flex;
+    }
+
+    .Section-Area-7{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 135px;
+    background-color: #EC663D;
+    margin-top: 50px;
+    }
+    .Estiempo {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 70px;
+    color: #FFFFFF;
+    margin-top: 80px;
+    }
+
+    .Section7-image{
+    width:350px;
+    height: 350px;
+    background-color: #5EAE53;
+    margin-left: 300px;
+    border-radius: 45px 45px 0px 0px;
+    padding-top: 30px;
+    }
+    .section7fonditas {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 96px;
+    color: #FFFFFF;
+    text-align: center;
+    }
+
+    .Section7-foodimage{
+    width:250px;
+    height:200px;
+    margin-left: 50px;
+    }
+
